@@ -1,0 +1,6 @@
+﻿Sensor_ID,Tier,Evidence_Type,Statistical_Evidence,ML_Evidence,Spotfire_Validation,Final_Interpretation
+59,Tier 1,Multi-evidence,Bonferroni significant | Eta² Rank 1,XGB Rank 4 | CV Top20 5/5,Fail distribution shifted upward; no clear long-term drift,Highest-priority review candidate
+33,Tier 1,Multi-evidence,BH-FDR significant | small effect size,XGB Rank 6 | CV Top20 5/5,Strong distribution overlap; no clear drift; missingness negligible,Candidate mainly supported by multivariate ML evidence
+129,Tier 1,Multi-evidence + Time,Bonferroni significant | Eta² Rank 16,XGB Rank 9 | CV Top20 4/5,September Pass median sharply decreased; time effect detected,Review candidate with possible temporal process-state effect
+419,Tier 2,Stable ML-only,ANOVA not significant | Eta² Rank 310,XGB Rank 2 | CV Top20 5/5,Zero spike + wide positive distribution; no clear time drift,Stable multivariate ML candidate
+95,Tier 2,Stable ML-only,Not significant after multiple-testing correction,XGB Rank 1 | CV Top20 5/5,Discrete/step-like value structure; no clear time drift,Stable multivariate ML candidate
